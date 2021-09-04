@@ -16,7 +16,7 @@ body{
 
 h3{
 
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     display: flex;
     justify-content: center;
     font-family:"Bebas Neue";
@@ -35,6 +35,7 @@ h2{
     font-size: 6em;
 }
 
+
 .main-cards{
 
     width: 100%;
@@ -52,6 +53,7 @@ h2{
     margin: 0.3em;
     height: 15em;
     width: auto;
+    transition: 0.5s;
 }
 
 .second-line-cards{
@@ -65,6 +67,8 @@ h2{
 .game-stats{
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 1em;
     margin: 2em 3em 0em 2em;
     background-color: rgb(37, 37, 37);
@@ -75,10 +79,45 @@ h2{
 
 .pair-card-counting{
 
-
-    border-radius: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    margin-left: 0.5em;
     background-color: rgb(71, 71, 71);
     width: 20em;
     height: 3.2em;
 
+}
+
+.cronometer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    background-color: rgb(71, 71, 71);
+    width: 20em;
+    height: 3.2em;
+
+}
+
+.score{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+    border-radius: 1em;
+    background-color: rgb(71, 71, 71);
+    width: 20em;
+    height: 3.2em;
+
+}
+
+.carta:hover{
+
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s;
 }
