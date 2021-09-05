@@ -19,19 +19,16 @@ const cartaDezoito = document.getElementById("carta-18")
 const cartaDezenove = document.getElementById("carta-19")
 const cartaVinte = document.getElementById("carta-20")
 
-var img_name = new Array("carta1");
+//Script to flip the card
 
-var l = img_name.length;
+const cards = document.querySelectorAll('.slot-card');
 
-var rnd_no = Math.floor(l*Math.random());
+function flipCard() {
+  this.classList.toggle('flip');
+}
 
-document.r_img.src = img_name[rnd_no];
+cards.forEach(card => card.addEventListener('click', flipCard));
 
-<img src="purple.gif" width="100" height="50" 
-name="r_img" alt="Random image" />
 
-//cartaUm.onclick = function(){
-//    cartaUm.setAttribute ()
-//}
 
 
