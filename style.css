@@ -48,12 +48,23 @@ h2{
     justify-content: center;
     
 }
-.carta{
+.carta-costa{
 
+    
     margin: 0.3em;
     height: 15em;
     width: auto;
     transition: 0.5s;
+}
+
+.carta-frente{
+
+    position: fixed;
+    margin: 0.3em;
+    height: 15em;
+    width: auto;
+    transition: 0.5s;
+    
 }
 
 .second-line-cards{
@@ -115,12 +126,6 @@ h2{
 
 }
 
-.carta:hover{
-
-    transform: scale(1.05);
-    cursor: pointer;
-    transition: 0.5s;
-}
 
 .slot-card.flip {
     transform: rotateY(180deg);

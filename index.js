@@ -19,6 +19,11 @@ const cartaDezoito = document.getElementById("carta-18")
 const cartaDezenove = document.getElementById("carta-19")
 const cartaVinte = document.getElementById("carta-20")
 
+var arrayCards = [cartaUm, cartaDois, cartaTres, cartaQuatro, cartaCinco, cartaSeis, cartaSete, cartaOito, cartaNove, cartaDez,
+cartaOnze, cartaDoze, cartaTreze, cartaCatorze, cartaQuinze, cartaDezesseis, cartaDezessete, cartaDezoito, cartaDezenove, cartaVinte];
+
+var randomCards = arrayCards [Math.floor(Math.random()*arrayCards.length)];
+
 //Script to flip the card
 
 const cards = document.querySelectorAll('.slot-card');
@@ -29,6 +34,7 @@ function flipCard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
+console.log(randomCards);
 
 
 
