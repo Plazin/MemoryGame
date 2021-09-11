@@ -58,7 +58,7 @@ h2{
 
 .slot-card {
 
-    margin: 5px;
+    margin: 2px;
     position: relative;
     transform: scale(1);
     transform-style: preserve-3d;
@@ -79,7 +79,6 @@ h2{
 
     margin: 0.3em;
     height: 15em;
-    width: auto;
     transition: 0.5s;
     
 }
@@ -112,7 +111,7 @@ h2{
 
 }
 
-.cronometer{
+.chronometer{
 
     display: flex;
     justify-content: center;
