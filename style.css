@@ -36,6 +36,8 @@ h2{
     font-size: 6em;
 }
 
+/* ====================== CARD GAME SETTINGS ======================== */
+
 .game{
 
     display: flex;
@@ -56,8 +58,6 @@ h2{
 
 .slot-card {
 
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
     margin: 5px;
     position: relative;
     transform: scale(1);
@@ -84,6 +84,7 @@ h2{
     
 }
 
+/* ====================== FOOTER ======================== */
 
 .game-stats{
 
@@ -135,9 +136,6 @@ h2{
     height: 3.2em;
 
 }
-
-
-
 
   @media (max-width: 600px){
     .game{
