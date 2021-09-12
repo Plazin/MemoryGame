@@ -151,27 +151,34 @@
     </div>
 
     <div class="game-stats">
-         <div class="pair-card-counting">
+
+          <div class = "time-and-reset-buttons">
+               <button id="play">Start</button>
+               <button id="pause">Pause</button>
+               <button id="reset" onclick="sampleFunction()">Reset All</button>
+          </div>
+
+          <div class="pares">PAIRS:</div>
+
+          <div class="pair-card-counting">
           <h3 id= "pair-card-counting">00/10</h3>
-         </div>
+          </div>
+
+          <div class="time">TIMER:</div>
 
          <div class="chronometer">
-          <h3 id="basicUsage">00:00:00</h3>
+          <h3 data-chronometer>00:00:00</h3>
          </div>
+
+         <div class="ponto">SCORE:</div>
 
          <div class="score">
           <h3 id="score">0</h3>
          </div>
+         
     </div>
-       
-
-    </div>
-
-    <script src="index.js"></script>
     
-    <script src="lib/easytimer/dist/easytimer.min.js"></script>
-   
-    <script>var timerInstance = new easytimer.Timer();</script>
+    <script src="index.js"></script>
     
 </body>
 </html>

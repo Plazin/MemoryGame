@@ -88,7 +88,7 @@ h2{
 .game-stats{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 1em;
     margin: 2em 3em 0em 2em;
@@ -106,7 +106,7 @@ h2{
     border-radius: 1em;
     margin-left: 0.5em;
     background-color: rgb(71, 71, 71);
-    width: 20em;
+    width: 8em;
     height: 3.2em;
 
 }
@@ -118,7 +118,7 @@ h2{
     align-items: center;
     border-radius: 1em;
     background-color: rgb(71, 71, 71);
-    width: 20em;
+    width: 8em;
     height: 3.2em;
 
 }
@@ -131,7 +131,7 @@ h2{
     margin-right: 0.5em;
     border-radius: 1em;
     background-color: rgb(71, 71, 71);
-    width: 20em;
+    width: 8em;
     height: 3.2em;
 
 }
@@ -140,4 +140,68 @@ h2{
     .game{
         display: none;
     }
+}
+
+.time-and-reset-buttons{
+
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play{
+    
+    margin: 10px;
+    font-size: 25px;
+    font-family:"Bebas Neue";
+    border-radius: 0.5em;
+    color: white;
+    background-color: rgb(71, 71, 71);
+}
+
+#pause{
+
+    margin: 10px;
+    font-size: 25px;
+    font-family:"Bebas Neue";
+    border-radius: 0.5em;
+    color: white;
+    background-color: rgb(71, 71, 71);
+}
+
+#reset{
+
+    margin: 10px;
+    font-size: 25px;
+    font-family:"Bebas Neue";
+    border-radius: 0.5em;
+    color: white;
+    background-color: rgb(71, 71, 71);
+}
+
+.pares{
+
+    padding-left: 50px ;
+    font-family:"Bebas Neue";
+    color: white;
+    font-size: 25px;
+}
+
+.time{
+
+    padding-left: 50px ;
+    padding-right: 10px;
+    font-family:"Bebas Neue";
+    color: white;
+    font-size: 25px;
+}
+
+.ponto{
+
+    padding-left: 50px ;
+    padding-right: 10px;
+    font-family:"Bebas Neue";
+    color: white;
+    font-size: 25px;
 }
