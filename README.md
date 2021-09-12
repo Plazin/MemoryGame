@@ -1,4 +1,4 @@
-🤔# Memory Game 🤔
+# 🤔 Memory Game 🤔
 
 <img src="https://i.imgur.com/pHvGbMk.gif" alt="memory-game" width="400"/>
 
