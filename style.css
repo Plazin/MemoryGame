@@ -58,6 +58,7 @@ h2{
 
 .slot-card {
 
+    cursor: pointer;
     margin: 2px;
     position: relative;
     transform: scale(1);
@@ -148,6 +149,10 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.time-and-reset-buttons button{
+    cursor: pointer;
 }
 
 #play{
