@@ -1,6 +1,6 @@
 # Memory Game
 
-<img src="https://i.imgur.com/pHvGbMk.gif" alt="memory-game" width="200"/>
+<img src="https://i.imgur.com/pHvGbMk.gif" alt="memory-game" width="400"/>
 
 ## 💭 Objetivo do Jogo
  
