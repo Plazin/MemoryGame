@@ -9,10 +9,10 @@ body{
 .main{
 
     border-radius: 1em;
-    margin: 2em 3em 0em 2em;
+    margin: 1% 0% 0% 1.6%;
     background-color: rgb(37, 37, 37);
-    width: 112em;
-    height: 50em;
+    width: 96.4%;
+    padding-bottom: 3%;
 }
 
 h3{
@@ -46,7 +46,8 @@ h2{
 
 .main-cards {
 
-    grid-template-columns: 175px 175px 175px 175px 175px 175px 175px 175px 175px 175px;
+    justify-content: center;
+    grid-template-columns: 10.5% 10.5% 10.5% 10.5% 10.5% 10.5% 10.5% 10.5% 10.5% 10.5%;
     display:grid;
     
 }
@@ -69,8 +70,8 @@ h2{
 .carta-costa{
 
     position: absolute;
-    margin: 0.3em;
-    height: 15em;
+    margin: 3%;
+    height: 94%;
     width: auto;
     transition: 0.5s;
     backface-visibility: hidden;
@@ -78,7 +79,7 @@ h2{
 
 .carta-frente{
 
-    margin: 0.3em;
+    margin: 3%;
     height: 15em;
     transition: 0.5s;
     
@@ -92,10 +93,10 @@ h2{
     justify-content: center;
     align-items: center;
     border-radius: 1em;
-    margin: 2em 3em 0em 2em;
+    margin: 1.5% 0% 0% 1.6%;
     background-color: rgb(37, 37, 37);
-    width: 112em;
-    height: 4em;
+    width: 96.4%;
+    height: 80%;
 
 }
 
@@ -137,11 +138,11 @@ h2{
 
 }
 
-  @media (max-width: 600px){
+/*  @media (max-width: 1500px){
     .game{
         display: none;
     }
-}
+}*/
 
 .time-and-reset-buttons{
 
