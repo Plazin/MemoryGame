@@ -105,11 +105,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1em;
-    margin-left: 0.5em;
+    border-radius: 15px;
+    margin-left: 0.5%;
     background-color: rgb(71, 71, 71);
-    width: 8em;
-    height: 3.2em;
+    width: 8%;
+    height: 50px;
 
 }
 
@@ -118,10 +118,10 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1em;
+    border-radius: 15px;
     background-color: rgb(71, 71, 71);
     width: 8em;
-    height: 3.2em;
+    height: 50px;
 
 }
 
@@ -131,10 +131,10 @@ h2{
     justify-content: center;
     align-items: center;
     margin-right: 0.5em;
-    border-radius: 1em;
+    border-radius: 15px;
     background-color: rgb(71, 71, 71);
     width: 8em;
-    height: 3.2em;
+    height: 50px
 
 }
 
