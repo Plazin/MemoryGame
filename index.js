@@ -2,8 +2,6 @@ document.getElementsByTagName("body")[0].onload = function (){
   shuffle()
 }
 
-
-
 //Script to flip the card & Logic game settings
 
 const cards = document.querySelectorAll('.slot-card');
@@ -30,11 +28,32 @@ function flipCard() {
 
 }
 
-// If the cards are the same, they stand still
+// Variables to make the pair card counting
+
+  let pairs = `00/10`
+  var contador = `00`
+  let countingDisplay = document.querySelector(`[data-pair-counting]`)
+
+  let score = `0`
+  var multiplicador = `0`
+  let scoreDisplay = document.querySelector(`[data-score-counting]`)
+
+// If the cards are the same, they stand still & If the cards match each other, it changes the pair card counting
 
 function checkForMatch(){
   if (firstCard.dataset.framework === secondCard.dataset.framework){
     disableCards();
+
+    // pair card counting
+    pairs = `${contador}/10`
+    contador ++;
+    countingDisplay.textContent = `${contador}/10`
+
+    // score counting
+    score = `${multiplicador}`
+    multiplicador ++;
+    scoreDisplay.textContent = `${multiplicador}0`
+
     return;
   }
   unflipCards();
@@ -123,16 +142,17 @@ cards.forEach(card => card.addEventListener('click', flipCard));
     play.removeAttribute(`disabled`)
   }
   
-})()
+})();
 
 // Script to reaload the page when press the button reset
 
 (() => {
   setTimeout(() => { 
-  document.getElementsByTagName("body")[0].style.backgroundColor = 'lightgreen';
+  document.getElementsByTagName("body")[0].style.backgroundColor = 'none';
   }, 50)
 })();
+
 function sampleFunction() {
  location.reload();
-}
+};
 

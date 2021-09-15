@@ -69,6 +69,7 @@ h2{
 
 .carta-costa{
 
+    cursor: pointer;
     position: absolute;
     margin: 3%;
     height: 94%;
@@ -79,6 +80,7 @@ h2{
 
 .carta-frente{
 
+    cursor: pointer;
     margin: 3%;
     height: 15em;
     transition: 0.5s;
