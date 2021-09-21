@@ -115,7 +115,6 @@ cards.forEach(card => card.addEventListener('click', flipCard));
     if (miliseconds >= 9) {
       miliseconds = `00`
       seconds ++
-      
     } 
 
     seconds ++
