@@ -17,7 +17,7 @@
 - [x] Implementação do CSS
 - [x] Implementação da lógica dos pares em JS
 - [x] Criação do timer, contagem de pares e pontuação
-- [ ] Melhoria da lógica de pontuação, contagem de pares e tela final
+- [x] Melhoria da lógica de pontuação, contagem de pares e tela final
 
 ## 👨🏻‍💻 Tecnologias utilizadas: 
 
