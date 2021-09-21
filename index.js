@@ -102,13 +102,21 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 (() => {
 
-  let hours = `00`,
+  let miliseconds = `00`,
       minutes = `00`,
       seconds = `00`,
       chronometerDisplay = document.querySelector(`[data-chronometer]`),
       chronometerCall
 
   function chronometer() {
+
+    miliseconds ++
+
+    if (miliseconds >= 9) {
+      miliseconds = `00`
+      seconds ++
+      
+    } 
 
     seconds ++
 
@@ -121,14 +129,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
       if (minutes < 10) minutes = `0` + minutes
     }
 
-    if (minutes > 59) {
-      minutes = `00`
-      hours ++
-      
-      if (hours < 10) hours = `0` + hours
-    }
-
-    chronometerDisplay.textContent = `${hours}:${minutes}:${seconds}`
+    chronometerDisplay.textContent = `${minutes}:${seconds}:${miliseconds}`
 
   }
 
